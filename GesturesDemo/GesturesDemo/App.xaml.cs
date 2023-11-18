@@ -1,20 +1,21 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using GesturesDemo;
+using GesturesDemo.Views;
 
 namespace GesturesDemo
 {
     public partial class App : Application
     {
-
-        public static float ScreenHeight { get; set;  }
-        public static float Screenwidth { get; set; }
+        public static float ScreenHeight { get; set; }
+        public static float ScreenWidth { get; set; }
         public App()
         {
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new MainPage();
+            MainPage = new TapDemo();
         }
 
         protected override void OnStart()
@@ -28,5 +29,9 @@ namespace GesturesDemo
         protected override void OnResume()
         {
         }
+    }
+
+    internal class MockDataStore
+    {
     }
 }

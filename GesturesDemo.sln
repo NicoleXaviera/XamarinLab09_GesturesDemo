@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GesturesDemo.Android", "Ges
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GesturesDemo.iOS", "GesturesDemo\GesturesDemo.iOS\GesturesDemo.iOS.csproj", "{27ACF100-0032-4F47-A4AF-52EBB9E726D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GesturesDemo", "GesturesDemo\GesturesDemo\GesturesDemo.csproj", "{E07E79F8-E725-4A16-AD11-F1F2CA8DB7C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GesturesDemo", "GesturesDemo\GesturesDemo\GesturesDemo.csproj", "{E07E79F8-E725-4A16-AD11-F1F2CA8DB7C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{053EBDA3-ED0D-4B33-A2C9-C7D543F77496}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

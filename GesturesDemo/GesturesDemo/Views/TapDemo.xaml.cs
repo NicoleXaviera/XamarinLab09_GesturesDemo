@@ -49,7 +49,12 @@ namespace GesturesDemo.Views
         void OnTapGestureRecognizerTapped(object sender, EventArgs args)
         {
             tapCount++;
+            label.Text = String.Format("{0} tap{1} SolidColorBrush far!",
+                tapCount,
+                tapCount == 1 ? "" : "s");
+
             var imageSender = (Image)sender;
+            
             if (tapCount % 2 == 0)
             {
                 imageSender.Source = "tapped.jpg";
